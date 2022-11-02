@@ -9,15 +9,15 @@ public class student {
     book borrowedBooks[] = new book[3];
     public int booksCount = 0;
 
-    Scanner input = new Scanner(System.in);
+//    Scanner input = new Scanner(System.in);
 
     public student(){
 
-        System.out.println("Enter Student Name:");
-        this.studentName = input.nextLine();
+        Console.log("Enter Student Name:");
+        this.studentName = Console.promtString();
 
-        System.out.println("Enter Reg Number:");
-        this.regNum = input.nextLine();
+        Console.log("Enter Reg Number:");
+        this.regNum = Console.promtString();
 
     }
 }
